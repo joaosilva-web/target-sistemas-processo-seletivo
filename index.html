@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <title>Teste técnico Target sistemas</title>
 </head>
 
 <body>
+
+    <!-- Primeira questão -->
     <div>
         <h1>Resolução da primeira Questão</h1>
         <code>
-       <pre>
-        INDICE = 13;
-        SOMA = 0;
-        K = 0;
+            <pre>
+                INDICE = 13;
+                SOMA = 0;
+                K = 0;
 
-        Enquanto K < INDICE faça {
-            K = K + 1;
-            SOMA = SOMA + K;
-        }
+                Enquanto K < INDICE faça {
+                    K = K + 1;
+                    SOMA = SOMA + K;
+                }
 
-        Imprimir(SOMA);
-       </pre>
-    </code>
+                Imprimir(SOMA);
+            </pre>
+        </code>
         <h2>O código executa a soma dos números de 1 a 13:</h2>
-        <h2>1+2+3+4+5+6+7+8+9+10+11+12+13
-            <h2 id="resultado">Carregando...</h2>
+        <h2>1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13</h2>
+        <h2 id="resultado">Carregando...</h2>
     </div>
 
-    <!-- Question 2  -->
+    <!-- Segunda questão -->
     <div>
         <h2>Resolução de segunda questão</h2>
         <p>
@@ -40,13 +43,14 @@
         </p>
 
         <form id="fibonacciForm">
-            <input id="inputNumberToCalcFibonacci" type="number" placeholder="Digite um número" required>
+            <label for="fibonacciForm">Digite um número: </label>
+            <input id="inputNumberToCalcFibonacci" type="number" placeholder="Ex: 8" required>
             <button type="submit">Verificar</button>
         </form>
         <h2 id="secondQuestionResult"></h2>
     </div>
 
-    <!-- Question 3 -->
+    <!-- Terceira questão -->
     <div>
         <h2>Resolução da terceira questão</h2>
         <p>
@@ -59,15 +63,14 @@
             </li>
             <li>
                 O maior valor de faturamento ocorrido em um dia do mês;
-
             </li>
             <li>
                 Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
             </li>
         </ul>
-        <p>
-            IMPORTANTE:
-        </p>
+        <b>
+            IMPORTANTE
+        </b>
         <p>
             a - Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
         </p>
@@ -82,7 +85,7 @@
         </h2>
     </div>
 
-    <!-- Question 4 -->
+    <!-- Quarta questão -->
     <div>
         <h2>Resolução da quarta questão</h2>
         <p>
@@ -106,18 +109,18 @@
                 Outros – R$19.849,53
             </li>
         </ul>
-        <p>
+        <b>
             Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve
             dentro do valor total mensal da distribuidora.
-        </p>
-
+        </b>
+        <h2>Porcentagens:</h2>
         <div id="percentageOfStates"></div>
     </div>
 
-    <!-- Quesrtion 5 -->
+    <!-- Quinta questão -->
     <div>
         <h2>5 - Escreva um programa que inverta os caracteres de um string.</h2>
-        <p>IMPORTANTE</p>
+        <p><strong>IMPORTANTE</strong></p>
         <p>a - Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente
             definida no código;</p>
         <p>b - Evite usar funções prontas, como, por exemplo, reverse;</p>
@@ -132,7 +135,9 @@
             <p id="showStringInverted"><strong>String invertida:</strong></p>
         </div>
     </div>
+
+    <script src="./index.js"></script> <!-- Arquivo JavaScript externo para a lógica -->
+
 </body>
-<script src="./index.js"></script>
 
 </html>
