@@ -47,14 +47,14 @@ function calcExistInFibonacci(valueReceived) {
     // Check if the received value is found in the sequence
     if (formattedValueReceived === fibonacci || formattedValueReceived === 0) {
       document.getElementById("secondQuestionResult").innerText =
-        "The number belongs to the Fibonacci sequence"; // Show result if number is in Fibonacci sequence
+        "O número pertence a sequência Fibonacci"; // Show result if number is in Fibonacci sequence
       return;
     }
 
     // If Fibonacci number exceeds the received value
     if (fibonacci > formattedValueReceived) {
       document.getElementById("secondQuestionResult").innerText =
-        "The number does not belong to the Fibonacci sequence"; // Show result if number is not in Fibonacci sequence
+        "O número não pertence a sequência Fibonacci"; // Show result if number is not in Fibonacci sequence
       return;
     }
   }
