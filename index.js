@@ -16,7 +16,7 @@ function firstQuestion() {
 // Display result on the HTML after the DOM content is loaded
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("resultado").innerText =
-    "Portanto o resultado é:: " + firstQuestion(); // Show the sum result
+    "Portanto o resultado é: " + firstQuestion(); // Show the sum result
 });
 
 // Second question: Check if a number is part of the Fibonacci sequence
