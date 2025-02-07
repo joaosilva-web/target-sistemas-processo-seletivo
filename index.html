@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste técnico Target sistemas</title>
 </head>
+
 <body>
     <div>
         <h1>Resolução da primeira Questão</h1>
-    <code>
+        <code>
        <pre>
         INDICE = 13;
         SOMA = 0;
@@ -22,16 +24,19 @@
         Imprimir(SOMA);
        </pre>
     </code>
-    <h2>O código executa a soma dos números de 1 a 13:</h2>
-    <h2>1+2+3+4+5+6+7+8+9+10+11+12+13
-    <h2 id="resultado">Carregando...</h2>
+        <h2>O código executa a soma dos números de 1 a 13:</h2>
+        <h2>1+2+3+4+5+6+7+8+9+10+11+12+13
+            <h2 id="resultado">Carregando...</h2>
     </div>
 
     <!-- Question 2  -->
-     <div>
+    <div>
         <h2>Resolução de segunda questão</h2>
         <p>
-            Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência. 
+            Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores
+            anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde,
+            informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número
+            informado pertence ou não a sequência.
         </p>
 
         <form id="fibonacciForm">
@@ -39,13 +44,14 @@
             <button type="submit">Verificar</button>
         </form>
         <h2 id="secondQuestionResult"></h2>
-     </div>
+    </div>
 
-     <!-- Question 3 -->
+    <!-- Question 3 -->
     <div>
         <h2>Resolução da terceira questão</h2>
         <p>
-            Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:
+            Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem
+            que desejar, que calcule e retorne:
         </p>
         <ul>
             <li>
@@ -53,7 +59,7 @@
             </li>
             <li>
                 O maior valor de faturamento ocorrido em um dia do mês;
-                
+
             </li>
             <li>
                 Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
@@ -66,45 +72,67 @@
             a - Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
         </p>
         <p>
-            b - Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
+            b - Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados
+            no cálculo da média;
         </p>
         <h2>
-          <p id="highestProfit"></p>  
-          <p id="lowestProfit"></p>
-          <p id="aboveAverageProfitDays"></p>  
+            <p id="highestProfit"></p>
+            <p id="lowestProfit"></p>
+            <p id="aboveAverageProfitDays"></p>
         </h2>
     </div>
 
     <!-- Question 4 -->
-     <div>
+    <div>
         <h2>Resolução da quarta questão</h2>
         <p>
-        Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
-    </p>
-    <ul>
-        <li>
-             SP – R$67.836,43
-        </li>
-        <li>
-     RJ – R$36.678,66
-</li>
-<li>
-     MG – R$29.229,88
-</li>
-<li>
-     ES – R$27.165,48
-</li>
-<li>
-    
-     Outros – R$19.849,53
-</li>
-    </ul>
-    <p>
-        Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
-    </p>
+            Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
+        </p>
+        <ul>
+            <li>
+                SP – R$67.836,43
+            </li>
+            <li>
+                RJ – R$36.678,66
+            </li>
+            <li>
+                MG – R$29.229,88
+            </li>
+            <li>
+                ES – R$27.165,48
+            </li>
+            <li>
 
-    <div id="percentageOfStates"></div>
-     </div>
+                Outros – R$19.849,53
+            </li>
+        </ul>
+        <p>
+            Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve
+            dentro do valor total mensal da distribuidora.
+        </p>
+
+        <div id="percentageOfStates"></div>
+    </div>
+
+    <!-- Quesrtion 5 -->
+    <div>
+        <h2>5 - Escreva um programa que inverta os caracteres de um string.</h2>
+        <p>IMPORTANTE</p>
+        <p>a - Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente
+            definida no código;</p>
+        <p>b - Evite usar funções prontas, como, por exemplo, reverse;</p>
+
+        <div>
+            <form id="stringToInvertForm">
+                <label for="userInput">Digite uma palavra ou frase:</label>
+                <input type="text" id="userInput">
+                <button type="submit">Inverter</button>
+            </form>
+
+            <p id="showStringInverted"><strong>String invertida:</strong></p>
+        </div>
+    </div>
 </body>
 <script src="./index.js"></script>
+
 </html>
